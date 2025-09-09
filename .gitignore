@@ -1,0 +1,24 @@
+# Python 
+__pycache__/
+*.pyc 
+.venv/
+
+# Docker
+*.log
+
+# Kaggle creds (never commit secrets)
+.kaggle/
+kaggle.json
+
+# Terraform local state
+infra/.terraform/
+infra/terraform.tfstate
+infra/terrraform.tfstate.backup
+infra/.terraform.lock.hcl
+infr/crash.log
+
+# VS Code
+.vscode/
+
+# Kaggle datasets
+data/
